@@ -1,0 +1,28 @@
+2023-11-06T23:07:28.985+08:00  INFO 11869 --- [restartedMain] com.earyspace.EarySpaceApplication       : Starting EarySpaceApplication using Java 17.0.9 with PID 11869 (/Users/chong/Documents/Lab/WorkSpace/EarySpace/target/classes started by dingyi in /Users/chong/Documents/Lab/WorkSpace/EarySpace)
+2023-11-06T23:07:28.987+08:00  INFO 11869 --- [restartedMain] com.earyspace.EarySpaceApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-11-06T23:07:29.016+08:00  INFO 11869 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06T23:07:29.016+08:00  INFO 11869 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-06T23:07:29.298+08:00  INFO 11869 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-06T23:07:29.309+08:00  INFO 11869 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-11-06T23:07:29.591+08:00  INFO 11869 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7090 (http)
+2023-11-06T23:07:29.597+08:00  INFO 11869 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-06T23:07:29.597+08:00  INFO 11869 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-06T23:07:29.623+08:00  INFO 11869 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-11-06T23:07:29.623+08:00  INFO 11869 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 607 ms
+2023-11-06T23:07:29.640+08:00  INFO 11869 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-06T23:07:30.030+08:00  INFO 11869 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59e0c050
+2023-11-06T23:07:30.031+08:00  INFO 11869 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-06T23:07:30.037+08:00  INFO 11869 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/easy_space?characterEncoding=utf-8'
+2023-11-06T23:07:30.100+08:00  INFO 11869 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-06T23:07:30.131+08:00  INFO 11869 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-06T23:07:30.133+08:00  INFO 11869 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-06T23:07:30.274+08:00  INFO 11869 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-06T23:07:30.490+08:00  INFO 11869 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-06T23:07:30.493+08:00  INFO 11869 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T23:07:30.627+08:00  WARN 11869 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06T23:07:30.833+08:00  INFO 11869 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-06T23:07:30.849+08:00  INFO 11869 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7090 (http) with context path '/api'
+2023-11-06T23:07:30.854+08:00  INFO 11869 --- [restartedMain] com.earyspace.EarySpaceApplication       : Started EarySpaceApplication in 2.14 seconds (process running for 2.492)
+2023-11-06T23:07:34.023+08:00  INFO 11869 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-06T23:07:34.039+08:00  INFO 11869 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-06T23:07:34.048+08:00  INFO 11869 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
