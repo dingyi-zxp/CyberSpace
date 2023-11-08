@@ -41,4 +41,20 @@ public class UserInfoController {
             writer.write("403");
         }
     }
+
+    @RequestMapping(value = "/signup", method = RequestMethod.POST)
+    public void signupAccount(@Param("email") String email,@Param("nickName") String nickName, @Param("password") String password,
+                              HttpServletResponse response) throws IOException {
+
+        System.out.println("email ::" +  email);
+
+        PrintWriter writer = response.getWriter();
+        boolean status = userDao.signup(email,nickName,password);
+        if (status){
+            writer.write("200");
+        }else {
+            writer.write("403");
+        }
+
+    }
 }
